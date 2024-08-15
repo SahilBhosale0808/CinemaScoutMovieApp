@@ -1,79 +1,41 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# Movie App
 
-# Getting Started
+## Overview
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+Welcome to the Movie App! This application allows users to explore popular movies, manage their favorite movies, and view detailed information about each movie. The app provides a clean and intuitive interface with features to search for movies, view movie details, and manage a favorites list.
 
-## Step 1: Start the Metro Server
+## Features
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+- **Home Screen:** Search and explore popular movies.
+- **Movie Details Screen:** View detailed information about a movie and toggle favorite status.
+- **Favorites Screen:** Manage your list of favorite movies and remove movies from favorites.
+- **Profile Screen:** View profile information and log out.
 
-To start Metro, run the following command from the _root_ of your React Native project:
+## Technologies Used
 
-```bash
-# using npm
-npm start
+- React Native
+- OMDb API
+- Axios
 
-# OR using Yarn
-yarn start
-```
+### Notable Implementation Details
 
-## Step 2: Start your Application
+- **Responsive Layout:** The app uses the `Dimensions` module to adjust the layout based on screen size, ensuring a consistent experience across devices.
+- **Toast Notifications:** `toastify-react-native` is used for displaying toast notifications for actions like logging out or removing a favorite movie.
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
+## Installation
 
-### For Android
+To run the Movies App locally, follow these steps:
 
-```bash
-# using npm
-npm run android
+1. Clone the repository: `git clone https://github.com/SahilBhosale0808/CinemaScoutMovieApp.git`
+2. Navigate to the project directory: `cd CinemaScoutMovieApp`
+3. Install the dependencies: `npm install`
+4. Configure the TMDB API credentials in the project
+5. Run the app on a connected device or emulator: `npm run android` (for Android) or `npm run ios` (for iOS)
 
-# OR using Yarn
-yarn android
-```
+Note: Make sure you have Node.js, npm, and React Native CLI installed on your system.
 
-### For iOS
+### Design Inspiration
 
-```bash
-# using npm
-npm run ios
+This app's design is inspired by the [Moovies Movie App from Dribbble](https://dribbble.com/shots/20053718-Moovies-Movie-app). You can view the design inspiration [here](https://dribbble.com/shots/20053718-Moovies-Movie-app).
 
-# OR using Yarn
-yarn ios
-```
-
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
-
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
-
-## Step 3: Modifying your App
-
-Now that you have successfully run the app, let's modify it.
-
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
-
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+Happy movie exploration! 🎥🍿✨
