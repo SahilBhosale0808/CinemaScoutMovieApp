@@ -1,5 +1,7 @@
 # Movie App
 
+https://github.com/SahilBhosale0808/CinemaScoutMovieApp/blob/main/assets/MovieApp.mp4
+
 ## Overview
 
 Welcome to the Movie App! This application allows users to explore popular movies, manage their favorite movies, and view detailed information about each movie. The app provides a clean and intuitive interface with features to search for movies, view movie details, and manage a favorites list.
