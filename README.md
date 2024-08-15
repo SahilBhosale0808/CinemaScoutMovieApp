@@ -22,6 +22,11 @@ Welcome to the Movie App! This application allows users to explore popular movie
 - **Responsive Layout:** The app uses the `Dimensions` module to adjust the layout based on screen size, ensuring a consistent experience across devices.
 - **Toast Notifications:** `toastify-react-native` is used for displaying toast notifications for actions like logging out or removing a favorite movie.
 
+## Download APK
+You can download the APK of the app from the following link:
+[Download CinemaScoutMovieApp APK](https://drive.google.com/file/d/1vIfxzQGs0RN_X1B-xPsa-wRKU4CKNbmQ/view?usp=drive_link)
+
+
 ## Installation
 
 To run the Movies App locally, follow these steps:
